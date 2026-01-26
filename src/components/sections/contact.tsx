@@ -45,14 +45,14 @@ export function Contact() {
     {
       icon: <Phone className="h-6 w-6 text-primary" />,
       title: 'Telefono',
-      value: '+39 0931 1806087',
-      href: 'tel:+3909311806087',
+      value: '+39 3936 960038',
+      href: 'tel:+393936960038',
     },
     {
       icon: <MapPin className="h-6 w-6 text-primary" />,
       title: 'Sede Operativa',
-      value: 'Piazzale Medaglia d’Oro Carmelo Ganci 19, Siracusa (SR)',
-      href: 'https://www.google.com/maps?q=Piazzale+Medaglia+d%E2%80%99Oro+Carmelo+Ganci+19,+Siracusa+(SR)',
+      value: 'Via IV Novembre, 2638121 Trento TN',
+      href: 'https://www.google.com/maps?q=Via%20IV%20Novembre,%202638121%20Trento%20TN',
     },
   ];
 
