@@ -60,7 +60,7 @@ export function Footer() {
 
         <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
           <p className="text-xs text-primary-foreground/50 mb-4 md:mb-0">
-            © {new Date().getFullYear()} SERV AI S.R.L. – Tutti i diritti riservati Startup innovativa iscritta al Registro delle Imprese di Siracusa P.IVA 02173470895 – REA SR-478395
+            © {new Date().getFullYear()} SERV AI S.R.L. – Tutti i diritti riservati Startup innovativa iscritta al Registro delle Imprese di Siracusa P.IVA 02814790222 – REA SR-478395
           </p>
           <div className="flex items-center space-x-4">
             {socialLinks.map((social) => (
