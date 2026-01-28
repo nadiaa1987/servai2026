@@ -49,7 +49,7 @@ export function Footer() {
             Non lasciare che la concorrenza ti superi. Ogni giorno senza automazione è un'opportunità persa. Inizia oggi: un audit gratuito di 30 minuti ti mostrerà il potenziale di guadagno nascosto nei tuoi processi.
           </p>
           <Button asChild size="lg" className="bg-primary text-primary-foreground font-bold hover:bg-primary/90">
-            <a href="https://meetings-eu1.hubspot.com/automato" target="_blank" rel="noopener noreferrer">
+            <a href="mailto:Servai@pec.servai.it">
               Prenota un Audit Gratuito
             </a>
           </Button>

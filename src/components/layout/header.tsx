@@ -61,7 +61,7 @@ export function Header() {
               ))}
             </nav>
             <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full">
-              <a href="https://meetings-eu1.hubspot.com/automato" target="_blank" rel="noopener noreferrer">Richiedi una Demo</a>
+              <a href="mailto:Servai@pec.servai.it">Richiedi una Demo</a>
             </Button>
           </div>
 
@@ -103,7 +103,7 @@ export function Header() {
                     ))}
                   </nav>
                    <Button asChild className="mt-auto bg-primary text-primary-foreground hover:bg-primary/90">
-                      <a href="https://meetings-eu1.hubspot.com/automato" target="_blank" rel="noopener noreferrer">Richiedi una Demo</a>
+                      <a href="mailto:Servai@pec.servai.it">Richiedi una Demo</a>
                     </Button>
                 </div>
               </SheetContent>
