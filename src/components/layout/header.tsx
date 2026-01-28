@@ -15,7 +15,7 @@ const navLinks = [
 ];
 
 const Logo = () => (
-    <div className="text-2xl font-bold tracking-tight">
+    <div className="text-2xl font-bold font-headline tracking-tight">
       <span className="text-primary">SERV</span>
       <span className="text-white">AI</span>
     </div>

@@ -31,7 +31,10 @@ export function Footer() {
         <div className="border-t border-white/10 pt-12">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="md:col-span-1">
-              <h3 className="font-headline text-lg font-semibold text-white mb-4">SERV AI</h3>
+              <div className="text-lg font-headline font-bold tracking-tight mb-4">
+                <span className="text-primary">SERV</span>
+                <span className="text-white">AI</span>
+              </div>
               <p className="text-sm text-primary-foreground/60">
                 Sistemi AI su misura per piccole e medie imprese.
               </p>
