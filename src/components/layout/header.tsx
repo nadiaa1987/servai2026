@@ -49,10 +49,12 @@ export function Header() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative flex h-20 items-center justify-center">
           {/* Desktop and Tablet navigation */}
-          <div className="hidden lg:flex flex-1 items-center justify-between backdrop-blur-md bg-black/30 border border-gray-800/50 rounded-full px-4 py-2">
-            <Link href="/" className="flex-shrink-0">
-              <Logo />
-            </Link>
+          <div className="hidden lg:flex w-full items-center justify-between backdrop-blur-md bg-black/30 border border-gray-800/50 rounded-full px-4 py-2">
+            <div className="flex-1">
+              <Link href="/" className="flex-shrink-0">
+                <Logo />
+              </Link>
+            </div>
             <nav className="flex space-x-6">
               {navLinks.map((link) => (
                 <Link key={link.href} href={link.href} className="text-sm font-medium text-gray-300 hover:text-white transition-colors">
@@ -60,9 +62,11 @@ export function Header() {
                 </Link>
               ))}
             </nav>
-            <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full">
-              <a href="mailto:Servai@pec.servai.it">Richiedi una Demo</a>
-            </Button>
+            <div className="flex-1 flex justify-end">
+              <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full">
+                <a href="mailto:Servai@pec.servai.it">Richiedi una Demo</a>
+              </Button>
+            </div>
           </div>
 
           {/* Mobile navigation */}
